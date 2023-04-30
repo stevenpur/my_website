@@ -1,0 +1,99 @@
+[
+    {
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0280551",
+        "publisher": "Public Library of Science San Francisco, CA USA",
+        "year": "2023",
+        "pages": "e0280551",
+        "number": "1",
+        "volume": "18",
+        "journal": "Plos one",
+        "author": "Sy, Aminata and McCabe, Leanne and Hudson, Emma and Ansari, Azim M and Lin, Shang-Kuan and Santana, S and Fiorino, Marzia and Ala, Aftab and Stone, Ben and others",
+        "title": "Utility of a buccal swab point-of-care test for the IFNL4 genotype in the era of direct acting antivirals for hepatitis C virus",
+        "ENTRYTYPE": "article",
+        "ID": "sy2023utility"
+    },
+    {
+        "url": "https://www.medrxiv.org/content/10.1101/2022.12.24.22283874v1",
+        "publisher": "Cold Spring Harbor Laboratory Press",
+        "year": "2022",
+        "pages": "2022--12",
+        "journal": "medRxiv",
+        "author": "COVID-19 Host Genetics Initiative and Ganna, Andrea",
+        "title": "A second update on mapping the human genetic architecture of COVID-19",
+        "ENTRYTYPE": "article",
+        "ID": "covid2022second"
+    },
+    {
+        "url": "https://www.nature.com/articles/s41586-022-04826-7",
+        "publisher": "Nature Publishing Group UK London",
+        "year": "2022",
+        "pages": "E1--E10",
+        "number": "7921",
+        "volume": "608",
+        "journal": "Nature",
+        "author": "COVID-19 Host Genetics Initiative",
+        "title": "A first update on mapping the human genetic architecture of COVID-19",
+        "ENTRYTYPE": "article",
+        "ID": "covid2022first"
+    },
+    {
+        "url": "https://www.nature.com/articles/s41586-021-03767-x",
+        "publisher": "Cold Spring Harbor Laboratory Press",
+        "year": "2021",
+        "pages": "2021--03",
+        "journal": "MedRxiv",
+        "author": "COVID-19 Host Genetics Initiative and Ganna, Andrea",
+        "title": "Mapping the human genetic architecture of COVID-19 by worldwide meta-analysis",
+        "ENTRYTYPE": "article",
+        "ID": "covid2021mapping"
+    },
+    {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34958182/",
+        "publisher": "Wiley Online Library",
+        "year": "2022",
+        "pages": "1213--1226",
+        "number": "5",
+        "volume": "6",
+        "journal": "Hepatology communications",
+        "author": "Innes, Hamish and Nischalke, Hans Dieter and Guha, Indra Neil and Weiss, Karl Heinz and Irving, Will and Gotthardt, Daniel and Barnes, Eleanor and Fischer, Janett and Ansari, M Azim and Rosendahl, Jonas and others",
+        "title": "The rs429358 locus in apolipoprotein E is associated with hepatocellular carcinoma in patients with cirrhosis",
+        "ENTRYTYPE": "article",
+        "ID": "innes2022rs429358"
+    },
+    {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/35142723/",
+        "publisher": "American College of Gastroenterology",
+        "year": "2022",
+        "number": "3",
+        "volume": "13",
+        "journal": "Clinical and translational gastroenterology",
+        "author": "Innes, Hamish and Walker, Alex J and Benselin, Jennifer and Grove, Jane I and Pedergnana, Vincent and Ansari, M Azim and Lin, Shang-Kuan and McLauchlan, John and Hutchinson, Sharon J and Barnes, Eleanor and others",
+        "title": "Comprehensive Comparative Analysis of Standard Validated, Genetic, and Novel Biomarkers to Enhance Prognostic Risk-Stratification in Patients With Hepatitis C Virus Cirrhosis",
+        "ENTRYTYPE": "article",
+        "ID": "innes2022comprehensive"
+    },
+    {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34532064/",
+        "publisher": "Oxford University Press UK",
+        "year": "2021",
+        "pages": "veab065",
+        "number": "2",
+        "volume": "7",
+        "journal": "Virus Evolution",
+        "author": "Lin, Shang-Kuan and De Maio, Nicola and Pedergnana, Vincent and Wu, Chieh-Hsi and Th{\\'e}z{\\'e}, Julien and Wilson, Daniel J and Barnes, Eleanor and Ansari, M Azim",
+        "title": "Using host genetics to infer the global spread and evolutionary history of HCV subtype 3a",
+        "ENTRYTYPE": "article",
+        "ID": "lin2021using"
+    },
+    {
+        "url": "https://wellcomeopenresearch.org/articles/6-47",
+        "publisher": "F1000 Research Ltd",
+        "year": "2021",
+        "volume": "6",
+        "journal": "Wellcome Open Research",
+        "author": "Ansari, Azim and Marchi, Emanuele and Ramamurthy, Narayan and Aschenbrenner, Dominik and Morgan, Sophie and Hackstein, Carl-Philipp and Lin, Shang-Kuan and Bowden, Rory and Sharma, Eshita and Pedergnana, Vincent and others",
+        "title": "In vivo negative regulation of SARS-CoV-2 receptor, ACE2, by interferons and its genetic control",
+        "ENTRYTYPE": "article",
+        "ID": "ansari2021vivo"
+    }
+]

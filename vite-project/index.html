@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link href="https://fonts.cdnfonts.com/css/cascadia-code" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div class="loader"> loading... </div>
+    <nav class="topnav">
+      <div id="menu_icon" tabindex="0">
+        <div class="menu_bar"></div>
+        <div class="menu_bar"></div>
+        <div class="menu_bar"></div>
+      </div>
+      <ul>
+          <li><span class="nav_button" id="home_button" herf="">Home</span></li>
+          <li><span class="nav_button" id="about_button" href="#about_content">About</span></li>
+          <li><span class="nav_button" id="exp_button">Experience</span></li>
+          <li><span class="nav_button" id="pub_button">Publications</span></li>
+          <li><span class="nav_button" id="cv_button">CV</span></li>
+          <li><span class="nav_button" id="contact_button">Contact</span></li>
+      </ul>
+    </nav>
+    
+    <main>
+    <div class="row">
+      <div class="column" id="desktop_col">
+        <!--<canvas id="bg"></canvas> -->
+        <canvas id="canvas_3d"></canvas>
+      </div>
+        
+      <div class="column" id = "content_col">
+        <div id = "about_content" class="tabcontent">
+          <h2 class="tabtitle">Hi, my name is Steven (Shang-Kuan) Lin</h2>
+          <p>
+            I recently completed my PhD in Genomic Medicine and Statistics, where I gained expertise in analysing large datasets and developing novel computational methods to understand infectious diseases better. My research focused on investigating infectious diseases from both the perspective of the human host and the pathogen, as well as exploring the interactions between the two.
+As I continue to explore the intersection of technology and medicine, I am excited to expand my expertise into the field of AI/ML and their application to computational biology. I am also proficient in programming languages such as R, Python, and Bash scripting, which have been essential tools in my research.
+Currently, I am seeking new opportunities to expand my expertise in either an academic or industry setting. I am eager to explore new challenges and collaborate with like-minded professionals who share my passion for using computational approaches to advance our understanding of biology and medicine.
+Through this website, I aim to showcase my skills and experience in computational biology to potential employers and collaborators. Whether you're interested in learning more about my research, exploring my portfolio of projects, or discussing potential industry/academia positions, I am always open to new opportunities and connections.
+Thank you for visiting my website, and I look forward to connecting with you soon!
+          </p>
+        </div>
+
+        <div id="exp_content" class="tabcontent">
+          <h2 class="tabtitle">Experiences</h2>
+          <div class="timeline">
+            <!--first timeline item-->
+            <div class="timeline_date">
+              Mar 2023 <br>to<br> Oct 2018
+            </div>
+            <div class="timeline_bar">
+              <div class="timeline_point"></div>
+            </div>
+            <div class="timeline_text">
+              <h3> PhD in Genomic Medicine and Statistics </h3>
+              <strong>@ University of Oxford</strong>
+              <p>
+                My research focus was on the genetic analysis of infectious diseases. More specifically, this include the following projects:
+                <ul>
+                  <li>Investigting the genetic factor for susceptibility to all common infectious diseases in England.</li>
+                  <li>Developing novel approach to build the co-evolution profile within the hepatitis B virus (HBV) genomes to investigate its potential routes of drug resistance.</li>
+                  <li>Rebuild the epidemiological history of hepatitis C virus (HBV) subtype 3a to understand its spatiotemporal dissemination.</li>
+                </ul>
+              </p>
+            </div>
+
+            <!--second timeline item-->
+            <div class="timeline_date">
+              Oct 2018 <br>to<br> Oct 2017
+            </div>
+            <div class="timeline_bar">
+              <div class="timeline_point"></div>
+            </div>
+            <div class="timeline_text">
+              <h3> Research Assistant </h3>
+              <strong>@ University of Oxford</strong>
+              <p>
+               A member of the STOP-HCV consortium under the supervision of Professor Daniel Wilson and Professor Ellie Barnes. Responsible for performing gene association study on Hepatitis C patients to find the genetic causal for cirrhosis development in the context of Hepatitis C infection. 
+              </p>
+            </div>
+            
+            <!--Third timeline item-->
+            <div class="timeline_date">
+              Oct 2017 <br>to<br> Oct 2016
+            </div>
+            <div class="timeline_bar">
+              <div class="timeline_point"></div>
+            </div>
+            <div class="timeline_text">
+              <h3> Master in Bioinformatics and Theoretical Systems Biology </h3>
+              <strong>@ Imperial College London</strong>
+              <p>
+                During this one year course, I did three lab rotation projects that included:
+                <ul>
+                  <li>Using machine learning to explore the potential incorporating functional similarity information in protein structure prediction under the supervision of Professor Michael Sternberg. </li>
+                  <li>Developing a statistical test to identify bias branching coalescent event and discover competition relationship between viral strains.</li>
+                  <li>Using standard pipeline to analyse gene expression data to identify biomarkers that can help improve diagnosing Tuberculosis.</li>
+                </ul>
+              </p>
+            </div>
+
+            <!--Fourth timeline item-->
+            <div class="timeline_date">
+              Aug 2016 <br>to<br> Nov 2015
+            </div>
+            <div class="timeline_bar">
+              <div class="timeline_point"></div>
+            </div>
+            <div class="timeline_text">
+              <h3> Research Assistant </h3>
+              <strong>@ Academia Sinica Taiwan</strong>
+              <p>
+                Under the supervision of Doctor Shu Fang and Professor Chau-Ti Ting, responsible for processing and analysing NGS genomic data of <i>Drosophila albomicans</i> in order to identify the genetic causal of parthenogenesis. 
+              </p>
+            </div>
+
+          
+          </div>
+        </div>
+
+        <div id="pub_content" class="tabcontent">
+          <h2 class="tabtitle">Publications</h2>
+        </div>
+
+        <div id="cv_content" class="tabcontent">
+          <h2 class="tabtitle">My Reseme</h2>
+          <object data="CV_shang-kuan(steven).pdf" style="width:100%;height:100vh" >
+            alt: <a herf="./CV_shang-kuan(steven).pdf"> cv </a>
+          </object>
+        </div>
+
+        <div id="contact_content" class="tabcontent">
+
+          <h2 class="tabtitle">Contact me!</h2>
+          <p>I'm actively seeking new career opportunities and open to collaborating on research projects. If you're interested in discussing potential opportunities or collaborations, please feel free to reach out to me. Let's explore the possibilities and see how we can work together to achieve our goals. </p>
+          <div id = "contact_img_div">
+            <div>
+              <a href="https://twitter.com/stevenpur_lin" target="_blank">
+                <img id="twitter_img" class="contact_img" src="./twitter.png" alt="">
+              </a>
+            </div>
+            <div>
+              <a href="https://www.linkedin.com/feed/" target="_blank">
+                <img id="linkedin_img" class="contact_img" src="./linkedin.png">
+              </a>
+            </div>
+            <div>
+              <a href="mailto:stevenpur@hotmail.com">
+                <img id="mail_img" class="contact_img" src="./mail.png" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+      
+    </div>
+    </main>
+    <script type="module" src="/main.js"></script>
+    <!--<script src="anime.min.js"></script>-->
+  </body>
+</html>

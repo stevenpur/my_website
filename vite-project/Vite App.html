@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script type="module" src="/@vite/client"></script>
+
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <canvas id="bg"></canvas>
+    <canvas id="canvas_3d"></canvas>
+    <svg id = "annot_svg" viewBox="0 0 1440 1024"> 
+      <circle cx="719.5" cy="508.5" r="182.5" fill="#233142"/>
+      <!----
+      <path d="M824.571 386.166L839.407 379.174L844.296 385.877V401.435L837.667 435.712L825.971 455.938H817.228H816.875L816.757 456.272L803.965 492.471L793.611 501.935L786.017 508.139L785.833 508.289V508.526V559.658V560.066L786.233 560.148L816.497 566.328L831.122 581.981L831.178 582.041L831.251 582.08L924.37 632.234L965.5 665.505V722.113L504.5 724.497V620.65L577.429 582.561L577.455 582.547L577.48 582.53L601.188 566.322L619.582 560.158H643.741H644.192L644.238 559.708L649.467 508.577L649.484 508.409L649.396 508.265L630.412 477.251L624.726 460.578L624.652 460.358L624.436 460.274L613.683 456.043L608.569 445.759L602.414 416.723V400.15L608.252 386.153L612.952 391.307L614.031 392.491L613.816 390.903L608.593 352.229V306.916L613.811 281.639L613.821 281.589V281.538V261.15L624.66 245.989L624.708 245.921L624.732 245.841L630.397 226.859L657.812 201.672L668.1 196.5H692.666L749.53 203.646L766.99 217.878L767.005 217.892L798.835 246.073L798.977 246.198H799.167H803.562L808.675 261.152L808.791 261.49H809.148H818.713L830.507 325.52L823.861 385.659L823.763 386.547L824.571 386.166Z" fill="#233142"></path>
+      -->
+      <path stroke = "white" stroke-dasharray="5,5" class = "dna_line" id= "top_left_L" stroke-width = "1" fill = "none" d="M646 440.122L566 343.623L320 343.623"></path>
+      <path stroke = "white" stroke-dasharray="5,5" class = "dna_line" id="top_right_L" stroke-width = "1" fill = "none" d="M796 370L891.5 370L954 281.495L1097.92 281.495"></path>
+      <path stroke = "white" stroke-dasharray="5,5" class = "dna_line" id="mid_right_L" stroke-width = "1" fill = "none" d="M793.003 511.5L1098 513.5"></path>
+      <path stroke = "white" stroke-dasharray="5,5" class = "dna_line" id="bottom_right_L" stroke-width = "1" fill = "none" d="M796 648L840 648L878 743.337L1097.57 743.337"></path>
+      <path stroke = "white" stroke-dasharray="5,5" class = "dna_line" id="botton_left_L" stroke-width = "1" fill = "none" d="M659 606.5L579 703L314 703"></path>
+      
+
+      <text fill="white" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="35" letter-spacing="0em"><tspan class = "dna_text" x="1004" y="265.727">About</tspan></text>
+      <text fill="white" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="35" letter-spacing="0em"><tspan class = "dna_text" x="946" y="494.727">Experience</tspan></text>
+      <text fill="white" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="35" letter-spacing="0em"><tspan class = "dna_text" x="292" y="321.727">Publications</tspan></text>
+      <text fill="white" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="35" letter-spacing="0em"><tspan class = "dna_text" x="930" y="724.727">CV Download</tspan></text>
+      <text fill="white" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="35" letter-spacing="0em"><tspan class = "dna_text" x="292" y="681.727">Contact</tspan></text>
+
+    </svg>
+    <main>
+      <div id="about_test"><h1 style="color:aliceblue" id="About">About</h1></div>
+      
+    </main>
+    <script type="module" src="/main.js?t=1676969002594"></script>
+    <!--<script src="anime.min.js"></script>-->
+  </body>
+</html>
